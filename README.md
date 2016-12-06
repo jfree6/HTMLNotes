@@ -62,3 +62,15 @@ Some commonly used semantic markup tags:
 
 
 ###Chapter 3 Notes
+
+There are 3 types of lists:
+Ordered(ol)(numbered)
+Unordered(ul)(Bulleted)
+
+Definition(dl)
+
+li is line items for ol and ul
+dt are the terms being defined and dd are the definitions in dl
+Lists can be nested
+
+###Chapter 4 Notes
