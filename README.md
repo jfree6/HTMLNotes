@@ -100,3 +100,37 @@ Use *mailto:* to link to an email
 Use the ***target="_blank"*** attribute to have a link open in a new window
 
 To link to another part of the same page use **#** and set an **id** attribute where you want it to link to
+
+###Chapter 5 Notes
+
+####Stock photos
+
+www.istockphoto.com
+
+www.gettyimages.com
+
+www.veer.com
+
+www.sxc.hu
+
+www.fotolia.com
+
+***img*** is the tag used for images
+
+| attribute     | Use     |
+| :------------- | :------------- |
+| src       | Location of the image(url or local)       |
+| alt | Text to be displayed if image does not load|
+| title | hover text for image |
+| height | height in pixels |
+| width | width in pixels |
+
+####Online Editors
+
+www.photoshop.com
+
+www.pixlr.com
+
+www.splashup.com
+
+www.ipiccy.com
