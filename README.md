@@ -5,7 +5,13 @@
 ###Chapter 1 Notes
 
   HTML uses several tags to control how text is displayed on the page.
-  Commonly used tags:
+
+  These tags can contain attributes to alter the appearance and function of the
+  contained object/text.
+
+  Attributes consist of a name and value.
+
+  Some commonly used tags:
 
 | Tag | Use |
 | --- | --- |
@@ -16,6 +22,10 @@
 | p | Paragraph text |
 | head | Header for the page(info about page) |
 | title | title of page |
+
+You can view the "source" of a page to see the html used to create that page.
+
+
 
 
 ###Chapter 2 Notes
