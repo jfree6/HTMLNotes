@@ -88,3 +88,5 @@ Links can open in new windows or tabs.
 Links use the tag **&lt;a&gt;**, the text between the open and close tags is what the user sees.
 
 The *href* attribute is what it links to.
+
+Links can go to a local html file or another webpage
