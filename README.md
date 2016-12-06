@@ -89,4 +89,14 @@ Links use the tag **&lt;a&gt;**, the text between the open and close tags is wha
 
 The *href* attribute is what it links to.
 
-Links can go to a local html file or another webpage
+Links can go to a local html file or another webpage.
+
+To link to a child/grandchild folder use path.
+
+To link to a parent/grandparent folder use ../ or ../../ respectively
+
+Use *mailto:* to link to an email
+
+Use the ***target="_blank"*** attribute to have a link open in a new window
+
+To link to another part of the same page use **#** and set an **id** attribute where you want it to link to
