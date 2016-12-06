@@ -71,20 +71,20 @@ There are 3 types of lists:
 
 ***Definition*** **&lt;dl&gt;**
 
-**&lt;li&gt;** is line items for **&lt;ol&gt;** and **&lt;ul&gt;**
+**&lt;li&gt;** is line items for **&lt;ol&gt;** and **&lt;ul&gt;**.
 
 **&lt;dt&gt;** are the terms being defined and
 **&lt;dd&gt;** are the definitions
- in **&lt;dl&gt;**
+ in **&lt;dl&gt;**.
 
-Lists can be nested
+Lists can be nested.
 
 ###Chapter 4 Notes
 
-Links can connect webpages, email or another part of the same page
+Links can connect webpages, email or another part of the same page.
 
-Links can open in new windows or tabs
+Links can open in new windows or tabs.
 
-Links use the tag **&lt;a&gt;**, the text between the open and close tags is what the user sees
+Links use the tag **&lt;a&gt;**, the text between the open and close tags is what the user sees.
 
-The *href* attribute is what it links to
+The *href* attribute is what it links to.
