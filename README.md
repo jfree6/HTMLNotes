@@ -148,4 +148,50 @@ www.ipiccy.com
 |th|table head|
 
 colspan merges a number of columns on that row
+
 rowspan merges a number of rows in that column
+
+###Chapter 7 Notes
+
+| Tags | Use     |
+| :------------- | :------------- |
+|form|opens/closes a form block|
+|input|Identifies that information will be received and in what form|
+|textarea|multi line text block(col & rows)|
+|select|Drop down list|
+|option|drop down option|
+|button|customize buttons|
+|label|identifies text as a label for input request|
+|fieldset|groups inputs together|
+|legend|identifies/labels a fieldset|
+
+| Attribute | Use     |
+| :------------- | :------------- |
+|action|***req.*** destination of info received|
+|method|how to send info(*get=def*)|
+|id|create a "name" for block (reference)|
+|type|What type of data will be receive|
+|name|What to call the data received|
+|size|size of input box(does not limit input amount) *old*|
+|maxlength|limits length of input|
+|value|what to send to server when this option is selected|
+|checked|what the default option will be|
+|selected|default drop down option|
+|multiple|ctrl/command to select > 1|
+|for|identifies which form the labeled selection belongs to|
+|placeholder|temp text before user types|
+
+|Type=|Use|
+|---|---|
+|text|single line text input|
+|password|single line text input that is "blocked" from view on browser(does not secure data transfer)|
+|radio|pick one|
+|checkbox|select all applicable|
+|file|file upload(method=post)|
+|submit|send to server|
+|image|image for submit button|
+|hidden|"secret" controls |
+|date|input date|
+|email|input email(some browsers auto check input)|
+|url|input web page address(some browsers auto check input)
+|search|single line text box for search input|
