@@ -195,3 +195,27 @@ rowspan merges a number of rows in that column
 |email|input email(some browsers auto check input)|
 |url|input web page address(some browsers auto check input)
 |search|single line text box for search input|
+
+###Chapter 8 Notes
+
+HTML5 uses &lt;!DOCTYPE html&gt; at the start of the page
+
+&lt;!-- comment --&gt;
+
+***class*** and ***id*** attributes go everywhere
+
+***class*** allows info to be grouped
+
+block level elements always start a new line
+
+inline elements continue on the same line
+
+***div*** allows elements to be blocked together
+
+***span*** groups inline ^
+
+***iframes*** are page within a page(uses src, height, width, seamless(new only))
+
+***meta*** in the **head** and contains page info
+
+###Chapter 9 Notes
