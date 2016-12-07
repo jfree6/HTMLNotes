@@ -134,3 +134,18 @@ www.pixlr.com
 www.splashup.com
 
 www.ipiccy.com
+
+###Chapter 6 Notes
+
+| tag | use     |
+| ------------- | ------------- |
+| Table       | opens/closes table block       |
+|td|table data|
+|tr|table row|
+|thead|table header|
+|tbody|table body|
+|tfoot|table footer|
+|th|table head|
+
+colspan merges a number of columns on that row
+rowspan merges a number of rows in that column
