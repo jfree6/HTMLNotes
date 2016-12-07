@@ -219,3 +219,34 @@ inline elements continue on the same line
 ***meta*** in the **head** and contains page info
 
 ###Chapter 9 Notes
+
+####video
+
+|attribute|Use|
+|---|---|
+|src|Location|
+|poster|"preview" image(separate image)|
+|width|<-see|
+|height|<-see|
+|controls|tells browser to use its own controls for video|
+|autoplay|specify play on page load|
+|loop|loops video|
+|preload|tells browser to preload all(auto), metadata(info/stats) or none|
+
+use ***source*** to specify multiple playable formats
+
+src/type(include codecs)
+
+####audio
+
+|attribute|Use|
+|---|---|
+|src|Location|
+|controls|tells browser to use its own controls|
+|autoplay|specify play on page load|
+|loop|loops video|
+|preload|tells browser to preload all(auto), metadata(info/stats) or none|
+
+use ***source*** to specify multiple playable formats
+
+src/type(include codecs)
