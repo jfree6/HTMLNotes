@@ -250,3 +250,38 @@ src/type(include codecs)
 use ***source*** to specify multiple playable formats
 
 src/type(include codecs)
+
+###Chapter 10 Notes
+
+link a css page->link href="css/styles.css" type="text/css"
+ rel="stylesheet" /
+
+ inline css->
+ style type="text/css"
+
+|Selector|Use|
+|---|---|
+|* {}|All|
+|h1 {}|matching type|
+|.class or p.class {}|all of that class or of that class in those elements(respectively)|
+|#id {}|targets id|
+|parent>child {}|only targets child of parent|
+|parent descendant {}|targets descendants of parent|
+|sibling+adjacent|targets only adjacent immediately following sibling|
+|sibling~general|all general of sibling|
+
+###Chapter 11 Notes
+
+|Color method|Example|
+|---|---|
+|RGB Values|color: rgb(100,100,90)|
+|Hex Codes|color: #ee3e80|
+|Color Name|color: ForestGreen|
+
+opacity: 0.5
+
+color: rgba(100,100,100,0.5)
+
+hsl/hsla(hue, saturation, lightness, alpha(opacity))
+
+###Chapter 12 Notes
