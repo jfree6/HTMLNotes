@@ -285,3 +285,55 @@ color: rgba(100,100,100,0.5)
 hsl/hsla(hue, saturation, lightness, alpha(opacity))
 
 ###Chapter 12 Notes
+
+|property|Example|
+|---|---|
+|font-family|font-family: "First Choice Font", Second, generic;|
+|font-size|font-size: 12px(pixels) or 200%(of standard 16px(stackswithin descendants)) or 1.3em(1 em is equal to the width of the letter "m")|
+|@font-face|@font-face {font-family: 'font name'; src: 'font.location; format: format of font'}|
+|font-weight|font-weight: bold or normal|
+|font-style|font-style: italic or oblique or normal|
+|text-transform|text-transform: uppercase or lowercase or capitalize|
+|text-decoration|text-decoration: none or underline or overline or line-through or blink|
+|line-height|line-height: 1.4em|
+|letter-spacing||
+|word-spacing||
+|alignment||
+|vertical-align||
+|text-indent||
+|text-shadow||
+
+| pseudo- | Use  |
+| :------------- | :------------- |
+|:first-letter|sets special values for first letter|
+|:first-line|sets special values for first line|
+|:link|sets special values for unclicked links|
+|:visited|sets special values for clicked links|
+|:hover|sets special values for when a user "hovers" over the object|
+|:active|sets special values for when an object is activated|
+|:focus|sets special values for when an object has focus|
+
+###Chapter 13 Notes
+
+| Property | Use     |
+| :------------- | :------------- |
+|width|<-see|
+|height|<-see|
+|min-width|<-see|
+|max-width|<-see|
+|min-height|<-see|
+|max-height|<-see|
+|overflow|tells browser what to do with content that exceeds the box(hidden/scroll)|
+|border-(top/bottom/left/right)-width|<-see(thin/medium/thick or px)|
+|border-style|solid/dotted/dashed/double/groove/ridge/inset/outset/hidden/none|
+|border-color|<-see|
+|border|allows an all-in-one config|
+|padding-(top/bottom/left/right)|space between text and border(px)|
+|margin|space between boxes(px)(set to auto on both sides to center)|
+|display|inline<->block(inline/block/inline-block/none)|
+|visibility|<-see(visible/hidden)|
+|border-image|custom border(stretch/repeat/round(repeat w/scaling))|
+|box-shadow|<-see (horizontal offset/vertical offset/blur distance/spread of shadow(px))|
+|border-radius-(top/bottom/left/right)|rounds corners(px)|
+
+###Chapter 14 Notes
