@@ -339,5 +339,21 @@ hsl/hsla(hue, saturation, lightness, alpha(opacity))
 ###Chapter 14 Notes
 
 list-style-type: (none/disc/circle/square(ul))
+
 list-style-type: (decimal/decimal-leading-zero/lower-alpha/upper-alpha/lower-roman/upper-roman)
+
 list-style-image: url(image url)
+
+list-style-position: outside/inside
+
+list-style(all in one)
+
+Table properties(width/padding/text-transform/letter-spacing/font-size/border/text-align/background-color/:hover)
+
+empty-cells:(hide/show inherit)
+
+border-spacing:(px)
+
+border-collapse: collapse
+
+cursor:(auto/crosshair/default/pointer/move/text/wait/help/url("cursor.gif")
