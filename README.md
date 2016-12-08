@@ -337,3 +337,7 @@ hsl/hsla(hue, saturation, lightness, alpha(opacity))
 |border-radius-(top/bottom/left/right)|rounds corners(px)|
 
 ###Chapter 14 Notes
+
+list-style-type: (none/disc/circle/square(ul))
+list-style-type: (decimal/decimal-leading-zero/lower-alpha/upper-alpha/lower-roman/upper-roman)
+list-style-image: url(image url)
