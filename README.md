@@ -357,3 +357,48 @@ border-spacing:(px)
 border-collapse: collapse
 
 cursor:(auto/crosshair/default/pointer/move/text/wait/help/url("cursor.gif")
+
+###Chapter 15 Notes
+
+position: static = normal positioning
+
+position: relative = in relation to where it would normally be positioned
+
+position: absolute = the absolute position on the page
+
+position: fixed = absolute positioning in relation to the browser window
+
+z-index = layering
+
+float = box items and send them in a particular direction
+
+clear = blocks sibling content from appearing on the sides of selected content(l,r,b,n)
+
+@import = import ruler from another style stylesheet
+
+###Chapter 16 Notes
+
+background-image = location/settings for a background image
+    repeat = set how the image is repeated(x,y,no,fixed,scroll)
+
+    position = combination (left, center, right) + (top, center, bottom)
+
+###Chapter 17 Notes
+
+Header = tag for Header
+
+footer = tag for footer
+
+nav = tag for navigation selections
+
+article = tag for an article
+
+aside = tag for asides related to an article
+
+section = tag for section (related items)
+
+hgroup = tag for grouping together multiple h tags
+
+figure = tag for object related to article
+
+figcaption = tag within a figure tag for adding a caption to the figure
