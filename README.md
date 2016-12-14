@@ -1,6 +1,6 @@
 #HTML/CSS Notes
 
-##HTML
+##HTML/CSS Book One
 
 ###Chapter 1 Notes
 
@@ -402,3 +402,161 @@ hgroup = tag for grouping together multiple h tags
 figure = tag for object related to article
 
 figcaption = tag within a figure tag for adding a caption to the figure
+
+## HTML/CSS Book Two
+
+###Chapter 1 Notes
+
+Structure your HTML for CSS
+
+code to prep for old browsers:
+
+<!&#45;&#45;[if lt IE 9]>
+
+&lt;script src="//html5shiv.googlecode.com/
+
+svn/trunk/html5.js"></script>
+
+<![endif]&#45;&#45;>
+
+div is empty block container
+
+span is empty inline container
+
+http://validator.w3.org html validator
+
+###Chapter 2 Notes
+
+Internal style sheet is in &lt;style&gt;&lt;/style&gt;
+
+css validator: http://jigsaw.w3.org/css-validator
+
+&lt;link href="location.css" rel="stylesheet"&gt;
+
+linking in css: @import url()
+
+###Chapter 3 Notes
+
+class names are case sensitive
+
+::before = add/edit something before
+
+::after = add/edit something after
+
+::selection = edit what happens when domething is highlighted by user
+
+^= = begins with(ie: a[href^="http://"])
+
+$= = begins with(ie: a[href$=".jpg"])
+
+&ast;= = begins with(ie: a[href&ast;="poke"])
+
+:first-child
+
+:last-child
+
+:nth-child(odd, even, xn+y)(x=how often y=where to start)
+
+:first/last/nth-of-type
+
+:not(not_this) (only simple selectors and pseudo and only once)
+
+###Chapter 4 Notes
+
+Here are examples of times when inheritance doesn’t strictly apply:
+
+ As a general rule, properties that afect the placement of elements on the page
+ or the margins, background colors, and borders of elements aren’t inherited.
+
+ Web browsers use their own inherent styles to format various tags: Headings are
+ big and bold, links are blue, and so on. When you define a font-size for the
+ text on a page and apply it to the &lt;body> tag, headings still appear larger
+ than paragraphs, and &lt;h1> tags are still larger than &lt;h2> tags. It’s the
+ same when you apply a font color to the <body>; the links on the page still
+ appear in good old-fashioned, web-browser blue.
+
+ When styles conflict, the more specific style wins out. In other words, when
+ you’ve specifically applied CSS properties to an element—like specifying the
+ font size for an unordered list—and those properties conflict with any inherited
+ properties—like a font-size set for the &lt;body> tag—the browser uses the font
+ size applied to the &lt;ul> tag.
+
+###Chapter 5 Notes
+
+tag = 1
+
+class = 10
+
+id = 100
+
+inline = 1000
+
+tiebreaker is last style
+
+###Chapter 6 Notes
+
+The League of Movable Type (www.theleagueofmoveabletype.com).
+
+Exljbris font foundry (www.exljbris.com).
+
+Fontex.org (www.fontex.org).
+
+The Open Font Library (http://openfontlibrary.org).
+
+Font Squirrel (www.fontsquirrel.com).
+
+Google Fonts (www.google.com/webfonts).
+
+color list https://developer.mozilla.org/en-US/docs/CSS/color_value.
+
+text size: xx-small, x-small, small, medium, large, x-large, and xx-large.
+
+font-variant: small-caps
+
+text-shadow: (amount right) (amount down) (how blurry) (color)
+
+
+###Chapter 7 Notes
+
+(margin(border(padding(content)padding)border)margin)
+
+margins overlap padding does not
+
+box-shadow:(amount right) (amount down) (how blurry) (color)
+
+Fortunately, CSS3 ofers a property that lets you change how a browser calculates
+
+the screen width (and height) of an element. The box-sizing property provides
+three options:
+
+The **content-box** option is the way browsers have always defined the screen
+width and height of an element, as described on page 213. That is, the browser
+adds the border widths and padding thicknesses to the values set for the width
+and height properties to determine the tag’s onscreen width and height. Since
+this is the default behavior, you don’t need to specify anything for content-box.
+
+The **padding-box** option tells a browser that when you set a style’s width or
+height property, it should include the padding as part of that value. For example,
+say you give an element 20 pixels of left and right padding and set the width of
+the element to 100 pixels. The browser will consider the padding part of that
+100-pixel value. In other words, the content area will be only 60 pixels wide
+(100 – 20 [left padding] – 20 [right padding]).
+
+The **border-box** value includes both the padding and the border thickness as
+part of the width and height values. This setting solves the problem of using
+percentage values for widths discussed above. In other words, with the box-sizing
+property set to border-box, when you set an element’s width to 50%, for instance,
+that element will take up 50 percent of the space, even if you add padding and
+borders to that element.
+
+###Chapter 8 Notes
+
+background images do not print
+
+cover = stretch
+
+contain = enlarge
+
+background-image: repeating-(linear or radial)-gradient((direction), (color), (color) (where to start
+change), (color) (where to start change), (color));(direction can be key word or
+ degrees(deg))
