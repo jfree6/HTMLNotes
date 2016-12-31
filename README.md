@@ -560,3 +560,206 @@ contain = enlarge
 background-image: repeating-(linear or radial)-gradient((direction), (color), (color) (where to start
 change), (color) (where to start change), (color));(direction can be key word or
  degrees(deg))
+
+###Chapter 9 Notes
+
+Pay attention to specificity
+
+You can edit the border on text
+
+display: block/inline-block/inline
+
+</li><li> to remove space between line items
+
+
+###Chapter 10 Notes
+
+transform: rotate(xdeg)/scale(X/Y)(x,y)/translate(X/Y)(down, right)/
+skew(horizontal deg, vertical deg)/
+
+transform-origin- change where the transform begins
+
+transition: properties/all dutation(s) timing(linear/ease/ease-in/ease-out/ease-in-out)
+
+transmition-delay: time to delay
+
+@keyframes animation{
+  from{
+    start-state
+  }
+  50%{
+    half-way
+  }
+  to{
+    end-state
+  }
+}
+
+animation: animation-name animation-duration loop-count
+
+timing function work for animations
+
+animation-play-state: play/paused
+
+###Chapter 11 Notes
+
+fieldset tags groups of related form questions
+
+legend groups fieldsets
+
+###Chapter 12 Notes
+
+Page Layout types
+
+Fixed width-page width that does not change with screen size(http://www.nytimes.com/)
+
+Liquid- Uses percentages to adjust to window space, more complicated to correctly
+use but makes the most of window real-estate.(http://maps.google.com)
+
+Responsive Web Design(RWD)- Uses media queries to adjust page layout dependent on
+screen size and use percentages to maximize screen real-estate.
+
+###Chapter 13 Notes
+
+Use a &lt;br> at the end of a div to ensure it extends to the bottom of the content
+ or you can float the div
+
+ multicolumn layout:
+
+ column-count: number of columns;
+
+ column-gap: space between columns;
+
+ column-rule: SH "border:";
+
+ column-rule-width:
+
+ column-rule-style:
+
+ column-rule-color:
+
+column-width:
+
+column:(width)(number)
+
+column-fill:
+
+column-span:
+
+###Chapter 14 Notes
+
+<meta name="viewport" content="width=device-width">(for responsive pages)
+
+<link href="css/small.css" rel="stylesheet" media="((min/max)-width: Xpx) and
+((min/max)-width: Ypx)">(HTML5 example)
+
+@viewport { width: device-width; }(css equivalent)
+
+Things to think about when adjusting:
+
+Adjust columns
+
+Use flexible widths
+
+Adjust white-space
+
+Adjust font sizes
+
+Hide content for small screens
+
+Use background images(instead of img tags)
+
+Determine customer usage and build around that form(phone, tablet or desktop)
+then adjust to the others
+
+Put the file in your site, and then link it to your page using the <script> tag. For example:
+
+<!--[if lte IE 8]>
+
+<script src="respond.min.js"></script>
+
+<![endif]-->
+
+This little maneuver forces IE 8, 7, and 6 to understand media queries.
+
+The first loads a basic style sheet for all devices, and the second and third load
+
+style sheets using media queries, like this:
+
+@import url(css/base.css); /* no media query, applies to all &ast;/
+
+@import url(css/medium.css) (min-width:481px) and (max-width:768);
+
+@import url(css/small.css) (max-width: 480px);
+
+You can also embed a media query
+
+directly inside a style sheet, like this:
+
+@media (min-width: Xpx) and (max-width: Ypx){
+
+body {
+
+/*style properties go here*/
+
+}
+
+.style1 {
+
+/*style properties go here*/
+
+}
+
+}
+
+###Chapter 15 Notes
+
+positions:
+
+  absolute- the exact location that the object starts at
+
+  relative- move the object this much this direction from where it would normally be
+
+  fixed- stay at this location on the screen(does not scroll with page)
+
+  static- normal positioning
+
+viewport- a browsers screen/window size
+
+tags are relative to their container
+
+z-index controls stacking
+
+visibility can hide/unhide objects
+
+###Chapter 16 Notes
+
+media types: all, braille, embossed, handheld, print, projection, screen, speech, tty, and tv
+
+all - <see
+
+screen - monitor only
+
+print - applies when printed
+
+if no media is specified () assumes all
+
+print can be specified to remove/control parts that would not look good on paper
+
+###Chapter 17 Notes
+
+use comments and naming to clarify page function
+
+use multiple classes when appropriate
+
+group by both function and location
+
+use comments when necessary to clarify
+
+if needed use multiple stylesheets
+
+use style clearing when needed to remove browser settings
+
+use all tools/selector options available to you
+
+test with ie and use separate sheets if needed
